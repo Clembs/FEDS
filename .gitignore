@@ -1,0 +1,6 @@
+# Environment
+.env
+# NPM
+/node_modules
+# Production
+/dist
