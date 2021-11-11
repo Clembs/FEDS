@@ -1,10 +1,9 @@
 {
   "version": "1.0.0",
   "scripts": {
-    "start": "tsc src/index.ts --outFile dist/index.js",
-    "test": "tsc misc/test.ts --outFile dist/test.js --module amd && node dist /test.js"
+    "start": "tsc && node dist/index.js",
+    "test": "tsc && node dist/misc/test.js"
   },
-  "type": "module",
   "devDependencies": {
     "@types/node": "^16.11.7",
     "esbuild": "^0.13.13",
