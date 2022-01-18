@@ -1,4 +1,6 @@
-# .data
+# .FEDS
+Fairly Easy Data System
+
 files for handling very simple data, mostly as training for myself
 has a parser to return a JS object
 
